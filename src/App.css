@@ -7,3 +7,7 @@
 .mainPage{
   flex-grow: 1;
 }
+
+.avatar{
+  width: 33%;
+}

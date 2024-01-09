@@ -2,7 +2,9 @@ import React from 'react'
 
 const AvatarEmpleado = () => {
   return (
-    <div>AvatarEmpleado</div>
+    <>
+      <img src='../public/empleados/empleado01.png' className='img-fluid avatar' />
+    </>
   )
 }
 

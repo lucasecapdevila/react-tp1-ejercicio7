@@ -1,12 +1,13 @@
 import React from 'react'
 import AvatarEmpleado from './AvatarEmpleado'
+import { ListGroupItem } from 'react-bootstrap'
 
 const FilaEmpleado = () => {
   return (
-    <>
-      <div>FilaEmpleado</div>
+    <ListGroupItem className='d-flex justify-content-start'>
       <AvatarEmpleado />
-    </>
+      
+    </ListGroupItem>
   )
 }
 

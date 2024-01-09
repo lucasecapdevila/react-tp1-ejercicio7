@@ -1,12 +1,12 @@
 import React from 'react'
 import FilaEmpleado from './FilaEmpleado'
+import { ListGroup } from 'react-bootstrap'
 
 const ListaEmpleados = () => {
   return (
-    <>
-      <div>ListaEmpleados</div>
+    <ListGroup>
       <FilaEmpleado />
-    </>
+    </ListGroup>
   )
 }
 
