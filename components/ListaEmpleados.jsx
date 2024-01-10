@@ -2,10 +2,12 @@ import React from 'react'
 import FilaEmpleado from './FilaEmpleado'
 import { ListGroup } from 'react-bootstrap'
 
-const ListaEmpleados = () => {
+const ListaEmpleados = ({empleados}) => {
   return (
     <ListGroup>
-      <FilaEmpleado />
+      {
+        empleados.map((empleado) => <FilaEmpleado key={empleado.id} empleado={empleado} />)
+      }
     </ListGroup>
   )
 }

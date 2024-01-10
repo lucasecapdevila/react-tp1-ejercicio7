@@ -1,9 +1,9 @@
 import React from 'react'
 
-const AvatarEmpleado = () => {
+const AvatarEmpleado = ({empleado}) => {
   return (
     <>
-      <img src='../public/empleados/empleado01.png' className='img-fluid avatar' />
+      <img src={empleado.pic} className='img-fluid avatar' />
     </>
   )
 }
