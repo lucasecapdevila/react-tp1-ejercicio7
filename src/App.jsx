@@ -12,7 +12,7 @@ function App() {
     { id: 5, fullName: "Ares Jiménez", title: "Art Director", department: "Marketing", pic: "./public/empleados/empleado05.png" },
     { id: 6, fullName: "Marta Pérez", title: "Frontend Dev", department: "Engineering", pic: "./public/empleados/empleado06.png" },
     { id: 7, fullName: "Ellen Balderas", title: "DevOps Senior", department: "Marketing", pic: "./public/empleados/empleado07.png" },
-    { id: 8, fullName: "Cynthia Valentín", title: "Backend Dev", department: "Engineering", pic: "./public/empleados/empleado08.png" },
+    { id: 8, fullName: "Cyntia Valentín", title: "Backend Dev", department: "Engineering", pic: "./public/empleados/empleado08.png" },
     { id: 9, fullName: "Bernard Jung", title: "UX/UI Dev", department: "Engineering", pic: "./public/empleados/empleado09.png" }
     ]
 
